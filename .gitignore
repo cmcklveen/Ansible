@@ -5,7 +5,7 @@ bin-release/
 [Bb]in/
 
 # Other files and folders
-.terraform/
+terraform-provider-aws_v4.67.0_x5
 .settings/
 
 # Executables
