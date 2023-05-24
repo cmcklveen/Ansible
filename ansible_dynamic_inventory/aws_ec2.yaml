@@ -1,0 +1,14 @@
+plugin: aws_ec2
+aws_profile: default
+
+hostname:
+  - ip-address
+
+keyed_groups:
+  - prefix: arch
+    key: architecture
+
+groups: 
+  redhat: "'Redhat' in tags.OS"
+  ubuntu: "'Ubuntu' in tags.OS"
+  amazon: "'amazon' in tags.OS"
