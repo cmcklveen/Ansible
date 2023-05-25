@@ -6,10 +6,10 @@ bin-release/
 
 # Other files and folders
 terraform-provider-aws_v4.67.0_x5
-devops_user.pem
 .settings/
 
 # Executables
+*.pem
 *.swf
 *.air
 *.ipa
