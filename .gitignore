@@ -6,14 +6,15 @@ bin-release/
 
 # Other files and folders
 terraform-provider-aws_v4.67.0_x5
+devops_user.pem
 .settings/
 
 # Executables
-*.pem
 *.swf
 *.air
 *.ipa
 *.apk
+*.pem
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
